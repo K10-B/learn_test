@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--secondary-color);
     text-decoration: none;
@@ -44,11 +44,11 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .hero {
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .hero h1 {
@@ -58,13 +58,13 @@ nav {
 }
 
 button {
-    margin-top: 20px;
-    padding: 12px 24px;
-    font-size: 1rem;
+    margin-top: 200px;
+    padding: 32px 64px;
+    font-size: 1.5rem;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: none;
-    border-radius: 25px;
+    border-radius: 55px;
     cursor: pointer;
     transition: 0.3s ease;
 
@@ -72,4 +72,36 @@ button {
 
 button:hover {
     background-color: #1f1a16;
+}
+
+.food-logo-bar {
+    margin-top: 200px;
+    width: 100%;
+    height: 15vh;
+    background-color: var(--secondary-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.food-logo-bar ul {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.food-logo-bar ul li {
+    font-size: 3rem;
+    color: var(--primary-color);
+    gap: 100px;
+}
+
+.food-logo-bar ul li i {
+    color: var(--primary-color) !important;
 }
